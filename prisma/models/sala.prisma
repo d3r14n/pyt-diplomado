@@ -1,0 +1,5 @@
+type Sala
+{
+    id: ID! @id
+    nombre: String!
+}

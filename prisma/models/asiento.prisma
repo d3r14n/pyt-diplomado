@@ -1,0 +1,6 @@
+type Asiento
+{
+    id: ID! @id
+    numero: String!
+    sala: Sala!
+}

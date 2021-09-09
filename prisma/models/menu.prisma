@@ -1,0 +1,6 @@
+type Menu
+{
+    id: ID! @id
+    elemento: String!
+    precio: Precio!
+}

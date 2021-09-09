@@ -1,0 +1,6 @@
+type Precio
+{
+    id: ID! @id
+    costoTexto: String!
+    costoNumerico: String!
+}
