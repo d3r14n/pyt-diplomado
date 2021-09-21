@@ -1,8 +1,0 @@
-type Empleado
-{
-    id: ID! @id
-    nombre: String!
-    usuario: String!
-    password: String!
-    ultimoAcceso: DateTime!
-}

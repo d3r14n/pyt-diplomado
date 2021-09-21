@@ -1,0 +1,7 @@
+type Schedule {
+    id: ID! @id
+    createdAt: DateTime! @createdAt
+    updatedAt: DateTime! @updatedAt
+    startTime: DateTime!
+    finalTime: DateTime!
+}

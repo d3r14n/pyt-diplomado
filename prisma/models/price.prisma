@@ -1,0 +1,7 @@
+type Price {
+  id: ID! @id
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+  costNumber: Float!
+  costText: String!
+}

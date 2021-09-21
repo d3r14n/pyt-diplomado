@@ -1,9 +1,0 @@
-type Pelicula
-{
-    id: ID! @id
-    nombre: String!
-    clasificacion: String
-    sinopsis: String
-    fechaPrimerFuncion: DateTime!
-    fechaUltimaFuncion: DateTime
-}

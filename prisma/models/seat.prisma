@@ -1,0 +1,8 @@
+type Seat {
+  id: ID! @id
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+  row: String!
+  column: String!
+  room: Room @relation(link: INLINE)
+}

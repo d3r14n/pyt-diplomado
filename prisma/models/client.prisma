@@ -1,0 +1,11 @@
+type Client {
+  id: ID! @id
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+  name: String!
+  lastName: String
+  visits: Int!
+  customerClass: String!
+  customerPoints: Int!
+  orders: [Order!]! @relation(name: "OrdersUser", link: INLINE)
+}

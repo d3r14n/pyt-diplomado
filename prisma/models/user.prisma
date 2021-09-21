@@ -1,0 +1,10 @@
+type User {
+  id: ID! @id
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+  email: String! @unique
+  password: String
+  name: String!
+  token: String! @unique
+  orders: [Order!]! @relation(name: "OrdersUser", link: INLINE)
+}

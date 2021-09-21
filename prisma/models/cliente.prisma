@@ -1,7 +1,0 @@
-type Cliente
-{
-    id: ID! @id
-    nombre: String!
-    visitas: Int!
-    rango: Int!
-}

@@ -1,0 +1,7 @@
+type Room {
+    id: ID! @id
+    name: String!
+    avaible: Boolean! @default(value: true)
+    createdAt: DateTime! @createdAt
+    updatedAt: DateTime! @updatedAt
+}

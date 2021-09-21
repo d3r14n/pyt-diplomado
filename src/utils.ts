@@ -33,3 +33,53 @@ export async function getUser(ctx: ContextParameters) {
     throw new Error(error);
   }
 }
+
+/*
+export function getClientId()
+{
+}
+
+export async function getClient()
+{
+}
+
+export function getMovieId()
+{
+}
+
+export async function getMovie()
+{
+}
+
+export function getRoomId()
+{
+}
+
+export async function getRoom()
+{
+}
+
+export function getScheduleId()
+{
+}
+
+export async function getSchedule()
+{
+}
+
+export function selectMovie()
+{
+}
+
+export function selectRoom()
+{
+}
+
+export function selectSeat()
+{
+}
+
+export function generateTicket()
+{
+}
+*/
